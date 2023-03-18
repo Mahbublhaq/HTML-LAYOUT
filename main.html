@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>LAYOUT IN HTML
+
+</HTML>
+</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        background-color: #1e211c;
+        color: #ad1919;
+    }
+    
+    .item {
+        background-color: #e9eded;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(51, 240, 70);
+        background-color: black;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .mgd {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    
+    .gd {
+        background-color: #7bcd0f;
+        color: #9b2e2e;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .gd1 {
+        background-color: aqua;
+        background-size: cover;
+    }
+    
+    .gd2 {
+        background-color: aquamarine;
+        background-size: cover;
+    }
+    
+    .gd3 {
+        background-color: #ad1919;
+        background-size: cover;
+    }
+    
+    .gd4 {
+        background-color: blue;
+        background-size: cover;
+    }
+    
+    .gd5 {
+        background-color: blueviolet;
+        background-size: cover;
+    }
+    
+    p1 {
+        text-align: center;
+        color: rgb(51, 240, 70);
+        background-color: black;
+        padding: 30px;
+        font-size: 50px;
+        text-align: center;
+        margin-left: 35%;
+    }
+</style>
+
+<body>
+    <p1>
+        Shaikh Mahbubul Haq
+    </p1>
+    <h1>Layout IN HTML</h1>
+    <div class="grid-container">
+        <div class="Item">About</div>
+        <div class="Item">Hobby</div>
+        <div class="Item">Project</div>
+        <div class="Item">Demo</div>
+        <div class="Item">Future Plan</div>
+        <div class="Item">Contact</div>
+    </div>
+    <div class="mgd">
+        <div class="gd">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies leo a est vulputate, ut tempus sapien convallis. In vitae libero euismod, faucibus arcu ut, pharetra arcu.</p>
+        </div>
+        <div class="gd1">
+            <h2>Hobby</h2>
+            <p>Nulla facilisi. Sed non justo id mauris fringilla fringilla. Donec tincidunt est sit amet lorem interdum, in dignissim augue luctus. Fusce ullamcorper magna sit amet mauris iaculis.</p>
+        </div>
+        <div class="gd2">
+            <h2>Project</h2>
+            <p>Aliquam erat volutpat. Fusce vel eros in purus posuere facilisis eu vel dolor. Praesent eu semper nibh. Sed rhoncus sem sit amet erat ultrices, nec bibendum libero facilisis.</p>
+        </div>
+        <div class="gd3">
+            <h2>Demo</h2>
+            <p>Morbi gravida tellus quis dolor malesuada, vitae venenatis dolor iaculis. Sed sit amet sapien in mi aliquam rhoncus. Praesent euismod mauris a lorem mattis, id commodo eros dictum.</p>
+        </div>
+        <div class="gd4">
+            <h2>Future Plan</h2>
+            <p>Maecenas commodo, dolor sit amet feugiat vestibulum, tellus nulla laoreet lorem, vel lobortis ex sapien nec mauris. Pellentesque eu est eget velit bibendum lobortis.</p>
+        </div>
+        <div class="gd5">
+            <h2>Contact</h2>
+            <p>Curabitur volutpat tortor sit amet metus ullamcorper, in consequat magna dictum. Maecenas congue velit nec leo fermentum, vel dignissim sapien ullamcorper. Donec eu massa in velit convallis molestie.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
